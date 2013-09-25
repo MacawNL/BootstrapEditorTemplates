@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bootstrap.MVC.EditorTemplates</id>
+    <version>1.0.0</version>
+    <authors>Maarten Sikkema</authors>
+    <owners>Macaw Nederland BV</owners>
+    <licenseUrl>http://opensource.org/licenses/BSD-2-Clause</licenseUrl>
+    <projectUrl>http://github.com/MacawNL/BootstrapEditorTemplates</projectUrl>
+    <iconUrl>http://blog.getbootstrap.com/public/ico/apple-touch-icon-144-precomposed.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>EditorTemplates for MVC projects and Bootstrap 3. Adds standard bootstap input fields plus date, time and rich text controls</description>
+    <summary>This package adds EditorTemplates for many datatypes that make it easy to create good-loking and functional web forms, using the Bootstrap styling. Package contains only sourcecode and no binaries, so it is easy to modify. Includes controls for date, time and rich text (using markdown). Depends on Twitter.Bootstrap.Less, MarkDownDeep.NET, jQuery and jQuery.Globalize packages.</summary>
+    <releaseNotes>Read readme.txt on installing the package.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>MVC Bootstrap EditorTemplates</tags>
+    <dependencies>
+      <dependency id="html5shiv" />
+      <dependency id="Twitter.Bootstrap.Less" version="3.0.0" />
+      <dependency id="jQuery" />
+      <dependency id="jQuery.Validation" version="1.10.0"  />
+      <dependency id="jquery-globalize" version="0.1.1"  />
+      <dependency id="Microsoft.jQuery.Unobtrusive.Validation" version="2.0.30116.0" />
+      <dependency id="MarkdownDeep.Full" version="1.5"  />
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Sample.Web\App_Start\BootstrapEditorTemplatesConfig.cs.pp" target="Content\App_Start" />
+    <file src="..\Sample.Web\Content\themes\bootstrap\*.*" target="Content\Content\themes\bootstrap" />
+    <file src="..\Sample.Web\Scripts\bootstrap-datepicker.js" target="Content\Scripts" />
+    <file src="..\Sample.Web\Scripts\bootstrap-timepicker.js" target="Content\Scripts" />
+    <file src="..\Sample.Web\Scripts\filebutton.js" target="Content\Scripts" />
+    <file src="..\Sample.Web\Scripts\markdown.js" target="Content\Scripts" />
+    <file src="..\Sample.Web\Scripts\validation.js" target="Content\Scripts" />
+    <file src="..\Sample.Web\Utility\DateTimeExtensions.cs.pp" target="Content\Utility" />
+    <file src="..\Sample.Web\Utility\EnumDropDownList.cs.pp" target="Content\Utility" />
+    <file src="..\Sample.Web\Utility\LocalizationHelper.cs.pp" target="Content\Utility" />
+    <file src="..\Sample.Web\Utility\MarkdownHelper.cs.pp" target="Content\Utility" />
+    <file src="..\Sample.Web\Utility\Validation.cs.pp" target="Content\Utility" />
+    <file src="..\Sample.Web\Views\Shared\EditorTemplates\*.cshtml.pp" target="Content\Views\Shared\EditorTemplates" />
+    <file src="..\Sample.Web\web.config.transform" target="Content" />
+    <file src="..\Sample.Web\readme.txt" target="" />
+  </files>  
+</package>

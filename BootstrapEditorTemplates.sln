@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web", "Sample.Web\Sample.Web.csproj", "{E7334C99-5AB5-4FFD-9FCC-C346EF6C3711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1B3FC8C4-5EE2-4917-955E-B12F9D3EED9A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\Bootstrap.MVC.EditorTemplates.nuspec = .nuget\Bootstrap.MVC.EditorTemplates.nuspec
+		.nuget\Bootstrap.MVC.EditorTemplates.Sample.nuspec = .nuget\Bootstrap.MVC.EditorTemplates.Sample.nuspec
+		.nuget\Build.ps1 = .nuget\Build.ps1
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7334C99-5AB5-4FFD-9FCC-C346EF6C3711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7334C99-5AB5-4FFD-9FCC-C346EF6C3711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7334C99-5AB5-4FFD-9FCC-C346EF6C3711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7334C99-5AB5-4FFD-9FCC-C346EF6C3711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
