@@ -22,20 +22,20 @@ function Build()
     }
 
 	$files = @(
-		"..\Sample.Web\App_Start\BootstrapEditorTemplatesConfig.cs",
-		"..\Sample.Web\Controllers\BootstrapEditorTemplatesController.cs",
-		"..\Sample.Web\Utility\DateTimeExtensions.cs",
-		"..\Sample.Web\Utility\EnumDropDownList.cs",
-		"..\Sample.Web\Utility\LocalizationHelper.cs",
-		"..\Sample.Web\Utility\MarkdownHelper.cs",
-		"..\Sample.Web\Utility\Validation.cs",
-
+		(Get-ChildItem "..\Sample.Web\App_Start\BootstrapEditorTemplatesConfig.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Controllers\BootstrapEditorTemplatesController.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Utility\DateTimeExtensions.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Utility\EnumDropDownList.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Utility\LocalizationHelper.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Utility\MarkdownHelper.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Utility\Validation.cs" -File),
+		
 		#Sample
-		"..\Sample.Web\Controllers\BootstrapEditorTemplatesController.cs",
-		"..\Sample.Web\Models\Inputs.cs",
-		"..\Sample.Web\Views\BootstrapEditorTemplates\Index.cshtml",
-		"..\Sample.Web\Views\Shared\_Layout.BootstrapEditorTemplates.cshtml",
-		"..\Sample.Web\Views\Shared\_NavBar.BootstrapEditorTemplates.cshtml"
+		(Get-ChildItem "..\Sample.Web\Controllers\BootstrapEditorTemplatesController.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Models\Inputs.cs" -File),
+		(Get-ChildItem "..\Sample.Web\Views\BootstrapEditorTemplates\Index.cshtml" -File),
+		(Get-ChildItem "..\Sample.Web\Views\Shared\_Layout.BootstrapEditorTemplates.cshtml" -File),
+		(Get-ChildItem "..\Sample.Web\Views\Shared\_NavBar.BootstrapEditorTemplates.cshtml" -File)
 	)
 	
     $files += Get-ChildItem "..\Sample.Web\Views\Shared\EditorTemplates\*.cshtml" -File

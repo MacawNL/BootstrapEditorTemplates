@@ -1,10 +1,10 @@
 ﻿<configuration>
     <appSettings>
 	    <!-- BootstrapEditorTemplates: set the timezone for your application here -->
-		<add key="TimeZoneId" value="Pacific Standard Time" />
+		  <add key="TimeZoneId" value="Pacific Standard Time" />
     </appSettings>
-	<system.web>
-	    <!-- BootstrapEditorTemplates: set the culture (decimal, date formats) for your application here -->
-		<globalization culture="en-US" uiCulture="en-US" enableClientBasedCulture="false" requestEncoding="utf-8" responseEncoding="utf-8" />
-	</system.web>
+  <system.web>
+    <!-- BootstrapEditorTemplates: set the culture (decimal, date formats) for your application here -->
+    <globalization culture="en-US" uiCulture="en-US" enableClientBasedCulture="false" requestEncoding="utf-8" responseEncoding="utf-8" />
+  </system.web>
 </configuration>
