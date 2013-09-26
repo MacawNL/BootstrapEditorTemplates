@@ -17,8 +17,6 @@
     <tags>MVC Bootstrap EditorTemplates</tags>
     <dependencies>
       <dependency id="Twitter.Bootstrap.Less" version="3.0.0" />
-      <dependency id="jQuery" />
-      <dependency id="jQuery.Validation" version="1.10.0"  />
       <dependency id="jquery-globalize" version="0.1.1"  />
       <dependency id="Microsoft.jQuery.Unobtrusive.Validation" version="2.0.30116.0" />
       <dependency id="MarkdownDeep.Full" version="1.5"  />
