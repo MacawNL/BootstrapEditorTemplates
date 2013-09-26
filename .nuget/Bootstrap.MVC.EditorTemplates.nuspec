@@ -3,7 +3,7 @@
   <metadata>
     <id>Bootstrap.MVC.EditorTemplates</id>
     <title>MVC EditorTemplates for Bootstrap 3</title>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Maarten Sikkema</authors>
     <owners>Macaw Nederland BV</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -16,7 +16,6 @@
     <copyright>Copyright Macaw Nederland BV 2013</copyright>
     <tags>MVC Bootstrap EditorTemplates</tags>
     <dependencies>
-      <dependency id="html5shiv" />
       <dependency id="Twitter.Bootstrap.Less" version="3.0.0" />
       <dependency id="jQuery" />
       <dependency id="jQuery.Validation" version="1.10.0"  />

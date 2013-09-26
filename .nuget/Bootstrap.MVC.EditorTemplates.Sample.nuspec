@@ -16,6 +16,7 @@
     <copyright>Copyright Macaw Nederland BV 2013</copyright>
     <tags>MVC Bootstrap EditorTemplates Sample</tags>
     <dependencies>
+      <dependency id="html5shiv" />
       <dependency id="Bootstrap.MVC.EditorTemplates" version="1.0.0.0" />
     </dependencies>
   </metadata>
