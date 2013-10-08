@@ -12,17 +12,9 @@ $.validator.setDefaults({
     }
 });
 
-//$('form').each(function () {
-//    $(this).find('div.form-group').each(function () {
-//        if ($(this).find('span.field-validation-error').length > 0) {
-//            $(this).addClass('has-error');
-//        }
-//    });
-//});
-
 $(function () {
     /* initialize globalization, for parsing dates and decimals */
-    var data = $("meta[name='accept-language']").attr("content") || "en-US";
+    var data = $("html").attr("lang") || $("meta[http-equiv='content-language']").attr("content") || "en-US";
     Globalize.culture(data);
 
     $.validator.methods.number = function (value, element) {

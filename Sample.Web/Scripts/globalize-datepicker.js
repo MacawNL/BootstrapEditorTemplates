@@ -6,6 +6,7 @@
         daysShort: Globalize.culture().calendar.days.namesAbbr,
         daysMin: Globalize.culture().calendar.days.namesShort,
         months: Globalize.culture().calendar.months.names,
-        monthsShort: Globalize.culture().calendar.months.namesAbbr
+        monthsShort: Globalize.culture().calendar.months.namesAbbr,
+        weekStart: Globalize.culture().calendar.firstDay
     };
 });

@@ -19,8 +19,8 @@ namespace BootstrapEditorTemplatesNameSpace
                         ));
 
             bundles.Add(new ScriptBundle("~/Scripts/bootstrap").Include(
-                        "~/Scripts/jquery.globalize/globalize.js",
-                        "~/Scripts/jquery.globalize/cultures/globalize.culture." + System.Globalization.CultureInfo.CurrentCulture.ToString() + ".js",
+                        "~/Scripts/globalize/globalize.js",
+                        "~/Scripts/globalize/cultures/globalize.culture." + System.Globalization.CultureInfo.CurrentCulture.ToString() + ".js",
                         "~/Scripts/bootstrap*",
                         "~/Scripts/filebutton.js",
                         "~/Scripts/globalize-datepicker.js"

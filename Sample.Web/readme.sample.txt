@@ -1,22 +1,16 @@
 ﻿Bootstrap 3 EditorTemplates
 Maarten Sikkema, Macaw
 
-After you have added this package in your project, initialize this package by adding the following line in your App_Start in global.asax:
+Initialize this package by adding the following line in your App_Start in global.asax:
 
 	BootstrapEditorTemplatesConfig.RegisterBundles();
 
-This will initialize several script bundles that are used by the controls.
+Then browse to /BootstrapEditorTemplates in the browser to see a sample page showing all controls 
 
-Sample
-The easiest way to see the controls in this NuGet package in action, is by using the Bootstrap.MVC.EditorTemplates.Sample package to your MVC4+ project, and then browse to /BootstrapEditorTemplates.
-You can see all the controls on one page.
 
 What is in this package?
-This NuGet package added the following things to your project:
 
-- readme.txt
-This file
-
+The EditorTemplates: 
 App_Start\
 - BootstrapEditorTemplatesConfig.cs
 Initialization code. Registers javascript and css Bundles 
@@ -33,9 +27,29 @@ Views\Shared\EditorTemplates\
 - {type}.cshtml
 The actual EditorTemplates
 
+Scripts\
+- bootstrap-datepicker.js
+- bootstrap-timepicker.js
+- filebutton.js
+- globalize-datepicker.js
+- markdown.js
+- validation.js
+Initialization and glue code for the bootstrap controls and validation
+
+
 Content\themes\bootstrap\
 - *.less
 - *.css
 This file contains the modified bootstrap files as .less sourcecode. They reference the unmodified files, that are in \Content\bootstrap. 
 You need the Web Essentials Add In for Visual Studio if you want to modify the .less files and generate an updated bootstrap.css stylesheets from them.
 You can copy this directory to add other themes, i.e. by downloading from bootswatch.com. Make sure to get the .less sources and not the compiled .css.
+
+The Sample:
+- Content\themes\bootstrap\*
+- Controllers\BootstrapEditorTemplatesController.cs
+- Models\Inputs.cs
+- Vieuws\BootstrapEditorTemplates\Index.cshtml
+- Views\Shared\_Layout.BootstrapEditorTemplates.cshtml
+-             \_NavBar.BootstrapEditorTemplates.cshtml
+
+These files make up the Bootstrap 3 sample page showing all the templates.

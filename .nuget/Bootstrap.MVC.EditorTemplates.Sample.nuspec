@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Bootstrap.MVC.EditorTemplates.Sample</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Maarten Sikkema</authors>
     <owners>Macaw Nederland BV</owners>
     <licenseUrl>http://opensource.org/licenses/BSD-2-Clause</licenseUrl>
@@ -15,7 +15,7 @@
     <copyright>Copyright 2013</copyright>
     <tags>Sample page for MVC Bootstrap EditorTemplates</tags>
     <dependencies>
-      <dependency id="Bootstrap.MVC.EditorTemplates" version="1.0.0.0" />
+      <dependency id="Bootstrap.MVC.EditorTemplates" version="1.0.3" />
     </dependencies>
   </metadata>
   <files>
@@ -24,6 +24,6 @@
     <file src="..\Sample.Web\Views\BootstrapEditorTemplates\Index.cshtml.pp" target="Content\Views\BootstrapEditorTemplates" />
     <file src="..\Sample.Web\Views\Shared\_Layout.BootstrapEditorTemplates.cshtml.pp" target="Content\Views\Shared" />
     <file src="..\Sample.Web\Views\Shared\_NavBar.BootstrapEditorTemplates.cshtml.pp" target="Content\Views\Shared" />
-    <file src="..\Sample.Web\readme.txt" target="" />
+    <file src="..\Sample.Web\readme.sample.txt" target="" />
   </files>  
 </package>

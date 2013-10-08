@@ -1,6 +1,6 @@
 ﻿@using $rootnamespace$.Utility
 <!DOCTYPE html>
-<html lang="en">
+<html lang="@LocalizationHelper.Lang">
     <head>
         <meta charset="utf-8">
         <title>@ViewBag.Title - My ASP.NET MVC Application</title>
