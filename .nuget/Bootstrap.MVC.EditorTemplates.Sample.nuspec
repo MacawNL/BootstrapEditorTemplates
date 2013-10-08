@@ -2,19 +2,21 @@
 <package >
   <metadata>
     <id>Bootstrap.MVC.EditorTemplates.Sample</id>
+    <title>MVC Bootstrap EditorTemplates Sample</title>
     <version>1.0.1</version>
     <authors>Maarten Sikkema</authors>
     <owners>Macaw Nederland BV</owners>
-    <licenseUrl>http://opensource.org/licenses/BSD-2-Clause</licenseUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>http://github.com/MacawNL/BootstrapEditorTemplates</projectUrl>
     <iconUrl>http://blog.getbootstrap.com/public/ico/apple-touch-icon-144-precomposed.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sample page showing all EditorTemplates in Bootstrap.MVC.EditorTemplates</description>
     <summary>This package shows EditorTemplates for many datatypes that make it easy to create good-loking and functional web forms, using the Bootstrap styling. Package non-destructively adds a Controller and Views for Layout, NavBar and a test page, using Bootstrap 3. Test page shows controls including date, time and rich text (using markdown).</summary>
     <releaseNotes>Read readme.txt on installing the package.</releaseNotes>
-    <copyright>Copyright 2013</copyright>
-    <tags>Sample page for MVC Bootstrap EditorTemplates</tags>
+    <copyright>Copyright Macaw Nederland BV 2013</copyright>
+    <tags>MVC Bootstrap EditorTemplates Sample</tags>
     <dependencies>
+      <dependency id="html5shiv" />
       <dependency id="Bootstrap.MVC.EditorTemplates" version="1.0.3" />
     </dependencies>
   </metadata>
