@@ -26,6 +26,6 @@
     <file src="..\Sample.Web\Views\BootstrapEditorTemplates\Index.cshtml.pp" target="Content\Views\BootstrapEditorTemplates" />
     <file src="..\Sample.Web\Views\Shared\_Layout.BootstrapEditorTemplates.cshtml.pp" target="Content\Views\Shared" />
     <file src="..\Sample.Web\Views\Shared\_NavBar.BootstrapEditorTemplates.cshtml.pp" target="Content\Views\Shared" />
-    <file src="..\Sample.Web\readme.sample.txt" target="" />
+    <file src="..\Sample.Web\readme.txt" target="" />
   </files>  
 </package>

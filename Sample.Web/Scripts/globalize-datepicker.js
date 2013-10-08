@@ -1,4 +1,6 @@
-﻿$(function () {
+﻿/// <reference path="globalize/globalize.js" />
+
+$(function () {
     // initialize it so it uses calendar data from jquery.globalize.js (initialized earlier)
 
     $.fn.datepicker.dates['globalize'] = {
@@ -7,6 +9,8 @@
         daysMin: Globalize.culture().calendar.days.namesShort,
         months: Globalize.culture().calendar.months.names,
         monthsShort: Globalize.culture().calendar.months.namesAbbr,
-        weekStart: Globalize.culture().calendar.firstDay
+        weekStart: Globalize.culture().calendar.firstDay,
+        today: "Today",
+        clear: "Clear"
     };
 });
