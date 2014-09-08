@@ -3,7 +3,7 @@
   <metadata>
     <id>Bootstrap.MVC.EditorTemplates</id>
     <title>MVC EditorTemplates for Bootstrap 3</title>
-    <version>1.0.3</version>
+    <version>1.1.0</version>
     <authors>Maarten Sikkema</authors>
     <owners>Macaw Nederland BV</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -13,14 +13,14 @@
     <description>EditorTemplates for MVC projects and Bootstrap 3. Adds standard bootstap input fields plus date, time and rich text controls</description>
     <summary>This package adds EditorTemplates for many datatypes that make it easy to create professional web forms, using the awesome responsive Bootstrap 3 styling. Package contains only sourcecode and no binaries, so everything is easy to understand and modify. Includes controls for date, time and rich text (using markdown). Depends on Twitter.Bootstrap.Less, MarkDownDeep.NET, jQuery and jQuery.Globalize packages.</summary>
     <releaseNotes>Read readme.txt on installing the package.</releaseNotes>
-    <copyright>Copyright Macaw Nederland BV 2013</copyright>
+    <copyright>Copyright Macaw Nederland BV 2013-2014</copyright>
     <tags>MVC Bootstrap EditorTemplates</tags>
     <dependencies>
       <dependency id="Twitter.Bootstrap.Less" version="3.0.0" />
       <dependency id="jquery-globalize" version="0.1.3"  />
       <dependency id="Microsoft.jQuery.Unobtrusive.Validation" />
       <dependency id="MarkdownDeep.Full" version="1.5"  />
-      <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.0.0" />
     </dependencies>
   </metadata>
   <files>
