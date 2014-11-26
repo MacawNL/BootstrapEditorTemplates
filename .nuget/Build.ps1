@@ -25,7 +25,6 @@ function Build()
 		(Get-ChildItem "..\Sample.Web\App_Start\BootstrapEditorTemplatesConfig.cs" -File),
 		(Get-ChildItem "..\Sample.Web\Controllers\BootstrapEditorTemplatesController.cs" -File),
 		(Get-ChildItem "..\Sample.Web\Utility\DateTimeExtensions.cs" -File),
-		(Get-ChildItem "..\Sample.Web\Utility\EnumDropDownList.cs" -File),
 		(Get-ChildItem "..\Sample.Web\Utility\LocalizationHelper.cs" -File),
 		(Get-ChildItem "..\Sample.Web\Utility\MarkdownHelper.cs" -File),
 		(Get-ChildItem "..\Sample.Web\Utility\Validation.cs" -File),

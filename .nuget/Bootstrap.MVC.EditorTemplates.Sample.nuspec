@@ -17,7 +17,7 @@
     <tags>MVC Bootstrap EditorTemplates Sample</tags>
     <dependencies>
       <dependency id="html5shiv" />
-      <dependency id="Bootstrap.MVC.EditorTemplates" version="1.1.0" />
+      <dependency id="Bootstrap.MVC.EditorTemplates" version="1.2.0" />
     </dependencies>
   </metadata>
   <files>

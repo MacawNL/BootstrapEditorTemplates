@@ -33,6 +33,8 @@ namespace BootstrapEditorTemplatesNameSpace.Models
         public string PasswordValue { get; set; }
         public float FloatValue { get; set; }
         public string StringValue { get; set; }
+        [EmailAddress]
+        public string EmailValue { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:hh\\:mm}", ApplyFormatInEditMode = true)]
         public TimeSpan TimeSpanValue { get; set; }

@@ -3,12 +3,15 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.WebPages;
 
+[assembly: WebActivatorEx.PostApplicationStartMethod(
+    typeof(BootstrapEditorTemplatesNameSpace.BootstrapEditorTemplatesSampleConfig), "PostStart")]
+
 namespace BootstrapEditorTemplatesNameSpace
 {
     public class BootstrapEditorTemplatesSampleConfig
     {
-        // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
-        public static void Initialize()
+        // This lets the /BootstrapEditorTemplates View use its own Layout
+        public static void PostStart()
         {
             // BootstrapEditorTemplates Sample Initialization
             DisplayModeProvider.Instance.Modes.Insert(0, new DefaultDisplayMode("BootstrapEditorTemplates")
