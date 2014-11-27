@@ -1,4 +1,4 @@
-﻿Bootstrap 3 EditorTemplates
+﻿Bootstrap 3 EditorTemplates, version 1.2
 Maarten Sikkema, Macaw
 
 Initialize this package by adding the following line in your App_Start in global.asax:
@@ -23,7 +23,6 @@ Initialization code. Registers javascript and css Bundles. You'll probably merge
 
 Utility\
 - DateTimeExtensions.cs
-- EnumDropDownList.cs
 - LocalizationHelper.cs
 - MarkdownHelper.cs
 - Validation.cs

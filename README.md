@@ -15,6 +15,7 @@ EditorTemplates are installed in \Views\Shared\EditorTemplates, they are instant
 	@Html.EditorFor(m => m.MarkdownValue, "Markdown")
 	@Html.EditorFor(m => m.PasswordValue, "Password")
 	@Html.EditorFor(m => m.StringValue)
+	@Html.EditorFor(m => m.EmailValue)
     @Html.EditorFor(m => m.TimeSpanValue)
 
 These templates offer basic controls like String and Decimal, and also some advanced controls that are not part of the standard bootstrap distribution. These are:
