@@ -52,7 +52,7 @@ You can copy this directory to add other themes, i.e. by downloading from bootsw
 The Sample:
 - Models\Inputs.cs
 - Controllers\BootstrapEditorTemplatesController.cs
-- Vieuws\BootstrapEditorTemplates\Index.cshtml
+- Views\BootstrapEditorTemplates\Index.cshtml
 - Views\Shared\_Layout.BootstrapEditorTemplates.cshtml
 -             \_NavBar.BootstrapEditorTemplates.cshtml
 These files make up the Bootstrap 3 sample page showing all the templates. You'll probably merge the code into your "real" _Layout.cshtml and _NavBar.cshtml
